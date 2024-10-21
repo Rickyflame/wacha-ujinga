@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standing Desks Ltd</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <div class="nav-content">
+          <!-- Logo section -->
+          <div class="logo-container">
+            <img src="images/STANDING DESK LTD-LOGO.png" alt="LOGO" class="logo-img">
+            <span class="logo-text">Standing Desk Ltd</span>
+          </div>
+    
+          <!-- Bars Icon for smaller screens -->
+          <button class="menu-toggle">
+            <i class="fa fa-bars"></i>
+          </button>
+    
+          <!-- Navigation links -->
+          <ul class="nav-links">
+            <!-- Searchbar -->
+            <li class="search-container">
+              <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button type="button" id="searchButton">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="rising-desks.html">Rising Desks</a>
+              <ul class="submenu">
+                <li><a href="rising-desks.html#compact-laptop">Compact-laptop</a></li>
+                <li><a href="rising-desks.html#full-size-adjustable">Full-size Adjustable</a></li>
+                <li><a href="rising-desks.html#premium-electric">Premium-Electric</a></li>
+              </ul>
+            </li>
+            <li><a href="health-benefits.html">Health Benefits</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="basket.html">Basket</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+        <div class="contact-container">
+            <div class="contact-left">
+              <div class="contact-info-box">
+                <h1 class="contact-title-page">Get in Touch</h1>
+                <!-- <p class="contact-title">Get in Touch</p> -->
+                <p class="contact-description">
+                    Your feedback helps us improve our products and services to better meet your needs. By sharing your thoughts, you help us enhance product designs, refine customer experiences, and drive innovation. Let us know how we can serve you better—your insights make a difference!
+                </p>
+                <div class="contact-icons">
+                  <a class="contact-icon">
+                    <img class="contact-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" alt="Twitter">
+                  </a>
+                  <a class="contact-icon">
+                    <img class="contact-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" alt="Facebook">
+                  </a>
+                  <a class="contact-icon">
+                    <img class="contact-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png" alt="Google">
+                  </a>
+                  <a class="contact-icon">
+                    <img class="contact-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png" alt="Instagram">
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-right">
+              <form class="contact-form">
+                <p class="form-header">Get a Quote</p>
+                <p class="form-subheader">We will get back to you in 24 hours</p>
+                
+                <div class="form-group">
+                  <input class="contact-input" name="FirstName" placeholder="First Name" />
+                  <input class="contact-input" name="LastName" placeholder="Last Name" />
+                  <input class="contact-input" name="Email" placeholder="Email" />
+                  <textarea class="contact-textarea" placeholder="Your Message"></textarea>
+                </div>
+                
+                <button class="contact-submit-btn">Submit</button>
+              </form>
+            </div>
+          </div>
+    </section>
+      
+    
+    <footer class="footer-lift-blue">
+      <div class="footer-background">
+        <div class="footer-content">
+          <img loading="lazy"
+            src="images\STANDING DESK LTD-LOGO.png"
+            class="footer-logo" alt="Footer logo" />
+          <div class="contact">
+            <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="rising-desks.html">Rising Desks</a>
+                <!-- <ul class="submenu">
+                                  <li><a>Compact-laptop</a></li>
+                                  <li><a>Full-size Adjustable</a></li>
+                                  <li><a>Premuim-Electric</a></li>
+                                </ul> -->
+              </li>
+              <li><a href="health-benefits.html">Health Benefits</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a class="" href="basket.html">Basket</a></li>
+            </ul>
+    
+            <section class="contact-section">
+              <h2 class="contact-title">Reach Us</h2>
+              <div class="contact-info">
+                <span class="contact-label">Customer Care:</span>
+                <span class="contact-value">+25403635581</span>
+              </div>
+            </section>
+            <section class="social-section">
+              <h2 class="social-title">Social</h2>
+              <img loading="lazy"
+                src="images\wordpress-icon.svg"
+                class="social-icons" alt="Social media icons" />
+            </section>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="copyright">© 2024 Elizabeth Ngigi | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- Search results modal -->
+    <div id="searchResultsModal" class="modal">
+      <div class="modal-content search-results-content">
+        <span class="close-modal">&times;</span>
+        <h2>Search Results</h2>
+        <div id="searchResults" class="search-results-container"></div>
+      </div>
+    </div>
+
+    <!-- LINKING JS FILE -->
+    <script src="index.js"></script>
+  </body>
+</html>
